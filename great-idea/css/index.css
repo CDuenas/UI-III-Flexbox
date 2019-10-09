@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,4 +58,420 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+		/* nav bar stuff */
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 0;
+	width: 10%;
+	display: inline-block;
+	top: 0;
+}
+
+.logo {
+	/* height: 50px;
+	width: 200px; */
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+/* div {
+	border-width: 1px;
+	border: dashed;
+} */
+
+		/* Innovation / 1st Image section */
+
+#main-body{
+	height: 600px;
+	position: relative;
+	border: none;
+	padding-left: 5%;
+	display: flex;
+}
+
+
+h1 {
+	float: left;
+	height: 300px;
+	font-size: 100px;
+	text-align: center;
+	padding: 100px 150px;
+	/* position: absolute; */
+	
+}
+
+.code-image {
+	float: right;
+	height: 500px;
+	width: 500px;
+	padding-right: 10%;
+	box-sizing: content-box;
+}
+
+.get-started {
+	position: absolute;
+	top: 72%;
+	left: 18%;
+	font-size: 20px;
+	color: black;
+	border: solid;
+	width: 200px;
+	padding-left: 3%;
+}
+
+/* Features and About row */
+
+
+#second-body{
+	height: 300px;
+	border-top: 1px solid black;
+	width: 80%;
+	left: 10%;
+	padding-left: 50px;
+	padding-top: 50px;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* Image below features and about */
+
+.middle-img{
+	width: 1100px;
+	height: auto;
+	left: 15%;
+	display: flex;
+	position: relative;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* Services/Product/Vision Row */
+
+#third-body{
+	height: 220px;
+	/* padding: 100px 100px 100px 150px; */
+	border-bottom: 1px solid black;
+	/* width: 80%; */
+	padding: 150px;
+	margin: 0;
+	/* left: 13%; */
+	display: flex;
+	/* position: absolute; */
+	margin-top: 70px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#service-box{
+	display: inline-block;
+	/* position: absolute; */
+	/* float: right; */
+	padding: 50px;
+	/* height: 50%; */
+	width: 33%;
+	margin-left: 0;
+}
+
+#product-box{
+	display: inline-block;
+	/* position: absolute; */
+	/* float: right; */
+	padding: 50px;
+	/* height: 50%; */
+	width: 33%;
+	margin-left: 0;
+}
+
+#vision-box{
+	display: inline-block;
+	/* float: right; */
+	padding: 50px;
+	/* height: 19%; */
+	width: 33%;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+
+footer{
+	height: 100px;
+	margin: 0;
+}
+
+h2{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+h3 {
+	display: inline-block;
+	text-align: center;
+	top: 100px;
+	
+}
+
+#feature-box{
+	display: inline-block;
+	/* position: absolute; */
+	height: 50%;
+	width: 50%;
+	padding: 0 50px 0 50px;
+	float: left;
+	margin-right: 0;
+}
+
+#about-box{
+	display: inline-block;
+	/* position: absolute; */
+	float: right;
+	padding: 0 50px 0 50px;
+	height: 50%;
+	width: 50%;
+	margin-left: 0;
+}
+
+
+
+footer{
+	margin-top: 100px;
+}
+
+address{
+	padding-bottom: 25px;
+}
+
+.foot-number {
+	padding-bottom: 25px;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 50px;
+}
+
+body{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+
+
+
+
+/* Service CSS */
+
+/* Top image */
+
+.services-header-img {
+	width: 100%;
+
+}
+
+/* Service section */
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0;
+	align-items: flex-start;
+}
+
+#service-h1{
+	font-size: 40px;
+	padding: 10px 0;
+	margin: 10px 0;
+	height: 50px;
+	left: 0;
+}
+
+.description p {
+	padding-top: 0;
+	padding-bottom: 50px; 
+	font-weight: 500;
+}
+
+/* Line through page */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);
+	margin: 1em 0;
+	margin-bottom: 50px;
+    padding: 0;
+}
+
+.hr-2 {
+	display: block;
+    height: 1px;
+    border: 0;
+	border-top: 2px solid rgb(0, 0, 0);
+	padding: 0;
+	margin-top: 50px;
+}
+
+
+/* Body boxes */
+
+
+/* Container for all body boxes */
+.body-box-container {
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	margin:0;
+}
+
+/* First two boxes */
+
+.body-box {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-ux {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.learn-button {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+/* Middle boxes */
+
+.body-box-digital {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-web {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+/* Last two boxes */
+
+.body-box-ios {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-android {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	margin-bottom: 100px;
+}
+
+.facts {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 10px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+h4 {
+	margin-bottom: 30px;
+}
+
+.facts p {
+	margin-bottom: 20px;
+	padding-left: 0;
+}
+
+ul {
+	list-style-type: square;
+	display: list-item;
+	list-style-position: inside;
+	padding-bottom: 15px;
+
+	
+}
+
+.facts-img {
+	width: 50%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.copyright-services {
+	text-align: center;
+	padding-top: 50px;
+}
