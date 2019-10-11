@@ -426,7 +426,7 @@ hr {
 	border: 1px solid black;
 }
 
-footer {
+.service-foot {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -474,4 +474,20 @@ ul {
 .copyright-services {
 	text-align: center;
 	padding-top: 50px;
+}
+
+/* Feature page CSS */
+
+/* Top img */
+
+.img-container {
+	display:flex;
+	/* flex-direction: row; */
+	height: 200px;
+	width: 100%;
+}
+
+.feature-img{
+	max-width: 100%;
+	/* object-fit: contain; */
 }
